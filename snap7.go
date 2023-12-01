@@ -6,7 +6,7 @@ import (
 
 /*
 #cgo CFLAGS: -I./
-#cgo LDFLAGS: -L./ -lsnap7
+#cgo LDFLAGS: -L./ -lsnap7 -lstdc++
 #include "snap7.h"
 */
 import "C"
